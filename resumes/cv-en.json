@@ -1,0 +1,82 @@
+{
+  "general": {
+    "name": "Elia Lotti",
+    "jobtitle": "Frontend - Backend - Machine Learning",
+    "email": "elialotti.dev@gmail.com",
+    "location": "Ceraldo (FI)",
+    "website": "https://elialotti.com",
+    "linkedin": "elia-lotti-dev",
+    "github": "kaosdev"
+  },
+  "experience": [
+    {
+      "title": "Software Developer",
+      "company": "Autonomo",
+      "start": "feb 2022",
+      "end": "attuale",
+      "location": "",
+      "descriptions": [
+        "Sviluppo del software per un dispositivo medico analitico. Utilizzati python, PyQT5 per la UI e opencv per elaborazione immagini",
+        "Sviluppo di una web app per il controllo remoto di macchine industriali. Utilizzati Angular, NestJS e postgresql",
+        "Supporto/Mentoring su progetto scritto in react ed express",
+        "Sviluppo di un gestionale per fatturazione elettronica"
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Hermes Trade s.r.l.",
+      "start": "lug 2018",
+      "end": "mar 2023",
+      "location": "Firenze",
+      "descriptions": [
+        "Team Leader in un gruppo di 4 data scientists in un contesto di consulenza",
+        "Messa in produzione di algoritmi di machine learning. Usati angular, react, fastapi, celery, redis, docker, aws",
+        "Sviluppo di sistema per l'addestramento di anomaly detectors su dati temporali brevi. Usato python e tensorflow",
+        "Sviluppo di una libreria per lavorare con dataset COCO (\\href{https://github.com/AILAB-bh/cocohelper}{\\underline{cocohelper}})",
+        "Sviluppo di un sistema no-code per la creazione di gestionali. Sviluppato in Angular, Java e Python",
+        "Sviluppo dell'interfaccia di una web app per pianificazione di interventi, scritta in angular"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "\\href{https://www.elialotti.com/it/roadmap/rxjs}{\\underline{RxJS Roadmap}}",
+      "desc": "Mappa interattiva che spiega la libreria RxJS."
+    },
+    {
+      "name": "\\href{https://github.com/kaosdev/map.js}{\\underline{map.js}}",
+      "desc": "Libreria javascript per la creazione di mappe concettuali interattive. Scritta in typescript."
+    }
+  ],
+  "skills": {
+    "Sviluppo Web": [
+      "Angular",
+      "Typescript",
+      "RxJS",
+      "ReactJS",
+      "express",
+      "NestJS"
+    ],
+    "Machine Learning": ["python", "Tensorflow", "pandas", "scikit-learn"],
+    "Altro": ["Docker", "Git", "Linux"]
+  },
+  "languages": {
+    "Italiano": 5,
+    "Inglese": 4
+  },
+  "certifications": [
+    {
+      "title": "Tensorflow Developer Certificate",
+      "academy": "Tensorflow",
+      "date": "09/2021 -- 09/2024",
+      "link": "https://www.credential.net/255b9c9e-2984-4c80-9525-69781c4f5d73"
+    }
+  ],
+  "education": [
+    {
+      "title": "Diploma in Informatica",
+      "academy": "IIS G.Ferraris - F. Brunelleschi",
+      "date": "09/2020"
+    }
+  ]
+}
