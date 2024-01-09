@@ -41,7 +41,7 @@ def render_latex(data):
     
 
 def render_pdf(filename="temp/resume.tex"):
-  subprocess.run(["latexmk", "-pdf", "--output-directory=temp", filename], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+  subprocess.run(["latexmk", "-pdf", "--output-directory=temp", filename]) #, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
 if __name__ == '__main__':
