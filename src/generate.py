@@ -41,16 +41,20 @@ def render_latex(data):
     
 
 def render_pdf(filename="temp/resume.tex"):
-  subprocess.run(["latexmk", "-pdf", "--output-directory=temp", filename]) #, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+  subprocess.run(["texliveonfly", '--arguments="-output-directory=temp"', filename]) #, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
 if __name__ == '__main__':
   output_folder = Path('output')
 
   if output_folder.exists():
-    rmtree(output_folder)
-  
-  output_folder.mkdir()
+    for path in output_folder.glob("**/*"):
+      if path.is_file():
+          path.unlink()
+      elif path.is_dir():
+          rmtree(path)
+  else:
+    output_folder.mkdir()
 
   for path in Path('resumes').glob('*.json'):
     name = path.name.split(".")[0]
