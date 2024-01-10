@@ -24,4 +24,4 @@ jobs:
           bodyFile: "CHANGELOG.MD"
           allowUpdates: "true"
           commit: "main"
-          tag:  ${{ env.version }}
+          tag: ${{ steps.version.outputs.VERSION }}
