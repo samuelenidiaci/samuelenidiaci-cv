@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Get release version
         id: version
-        run: echo "{version}={$(date +'%Y-%m-%d')}" >> $GITHUB_STATE
+        run: echo "{version}={$(date +'%Y-%m-%d')}" >> $GITHUB_ENV
       - name: Print version
         run: echo ${{ env.version }}
       - name: Checkout
