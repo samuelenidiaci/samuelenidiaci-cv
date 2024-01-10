@@ -8,9 +8,11 @@ jobs:
     steps:
       - name: Get release version
         id: version
-        run: echo "{version}={$(date +'%Y-%m-%d')}" >> $GITHUB_ENV
+        run: echo "version=$(date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
       - name: Print version
-        run: echo ${{ env.version }}
+        env:
+          VERSION: ${{ steps.version.outputs.VERSION }}
+        run: echo $VERSION
       - name: Checkout
         uses: actions/checkout@v4
       - name: Generate CV
