@@ -6,13 +6,15 @@ jobs:
   generate-cv:
     runs-on: ubuntu-latest
     steps:
+      - name: Get release version
+        id: version
+        run: echo "{version}={$(date +'%Y-%m-%d')}" >> $GITHUB_STATE
+      - name: Print version
+        run: echo ${{ env.version }}
       - name: Checkout
         uses: actions/checkout@v4
       - name: Generate CV
         run: docker-compose up --build
-      - name: Get release version
-        id: version
-        run: echo "{version}={$(date +'%Y-%m-%d')}" >> $GITHUB_STATE
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
@@ -20,4 +22,4 @@ jobs:
           bodyFile: "CHANGELOG.MD"
           allowUpdates: "true"
           commit: "main"
-          tag: "${{ env.version }}"
+          tag:  ${{ env.version }}
