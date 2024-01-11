@@ -62,7 +62,7 @@ if __name__ == '__main__':
     print(f"creating {name}.pdf")
     data = load_resume_data(path)
 
-    load_template("alta")
+    load_template(data["template"])
 
     render_latex(data)
     render_pdf()
