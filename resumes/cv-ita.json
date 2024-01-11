@@ -3,7 +3,7 @@
     "name": "Elia Lotti",
     "jobtitle": "Frontend - Backend - Machine Learning",
     "email": "elialotti.dev@gmail.com",
-    "location": "Ceraldo (FI)",
+    "location": "Certaldo (FI)",
     "website": "elialotti.com",
     "linkedin": "elia-lotti-dev",
     "github": "kaosdev"
@@ -11,7 +11,7 @@
   "experience": [
     {
       "title": "Software Developer",
-      "company": "Autonomo",
+      "company": "autonomo",
       "start": "feb 2022",
       "end": "attuale",
       "location": "",
@@ -23,8 +23,8 @@
       ]
     },
     {
-      "title": "Frontend Developer",
-      "company": "Hermes Trade s.r.l.",
+      "title": "Frontend Developer & ML Engineer",
+      "company": "Hermes Trade",
       "start": "lug 2018",
       "end": "mar 2023",
       "location": "Firenze",

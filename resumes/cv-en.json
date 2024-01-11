@@ -3,7 +3,7 @@
     "name": "Elia Lotti",
     "jobtitle": "Frontend - Backend - Machine Learning",
     "email": "elialotti.dev@gmail.com",
-    "location": "Ceraldo (FI)",
+    "location": "Certaldo (FI)",
     "website": "https://elialotti.com",
     "linkedin": "elia-lotti-dev",
     "github": "kaosdev"
@@ -11,45 +11,45 @@
   "experience": [
     {
       "title": "Software Developer",
-      "company": "Autonomo",
+      "company": "freelancer",
       "start": "feb 2022",
-      "end": "attuale",
+      "end": "ongoing",
       "location": "",
       "descriptions": [
-        "Sviluppo del software per un dispositivo medico analitico. Utilizzati python, PyQT5 per la UI e opencv per elaborazione immagini",
-        "Sviluppo di una web app per il controllo remoto di macchine industriali. Utilizzati Angular, NestJS e postgresql",
-        "Supporto/Mentoring su progetto scritto in react ed express",
-        "Sviluppo di un gestionale per fatturazione elettronica"
+        "Development of software for an analytical medical device. Used Python, PyQt5 for the UI, and OpenCV for image processing",
+        "Development of a web app for remote control of industrial machines. Used Angular, NestJS, and PostgreSQL",
+        "Support/Mentoring on a project written in React and Express",
+        "Development of a management system for electronic invoicing"
       ]
     },
     {
-      "title": "Frontend Developer",
-      "company": "Hermes Trade s.r.l.",
-      "start": "lug 2018",
+      "title": "Frontend Developer & ML Engineer",
+      "company": "Hermes Trade",
+      "start": "jul 2018",
       "end": "mar 2023",
       "location": "Firenze",
       "descriptions": [
-        "Team Leader in un gruppo di 4 data scientists in un contesto di consulenza",
-        "Messa in produzione di algoritmi di machine learning. Usati angular, react, fastapi, celery, redis, docker, aws",
-        "Sviluppo di sistema per l'addestramento di anomaly detectors su dati temporali brevi. Usato python e tensorflow",
-        "Sviluppo di una libreria per lavorare con dataset COCO (\\href{https://github.com/AILAB-bh/cocohelper}{\\underline{cocohelper}})",
-        "Sviluppo di un sistema no-code per la creazione di gestionali. Sviluppato in Angular, Java e Python",
-        "Sviluppo dell'interfaccia di una web app per pianificazione di interventi, scritta in angular"
+        "Team Leader in a group of 4 data scientists in a consulting context",
+        "Productization and deployment of machine learning algorithms. Used Angular, React, FastAPI, Celery, Redis, Docker, AWS",
+        "Development of a system for training anomaly detectors on short-term temporal data. Used Python and TensorFlow",
+        "Development of a library for working with COCO datasets (\\href{https://github.com/AILAB-bh/cocohelper}{\\underline{cocohelper}})",
+        "Development of a no-code system for creating management systems. Developed in Angular and Python",
+        "Development of the interface of a web app for intervention planning, written in Angular"
       ]
     }
   ],
   "projects": [
     {
       "name": "\\href{https://www.elialotti.com/it/roadmap/rxjs}{\\underline{RxJS Roadmap}}",
-      "desc": "Mappa interattiva che spiega la libreria RxJS."
+      "desc": "Interactive map explaining the RxJS library."
     },
     {
       "name": "\\href{https://github.com/kaosdev/map.js}{\\underline{map.js}}",
-      "desc": "Libreria javascript per la creazione di mappe concettuali interattive. Scritta in typescript."
+      "desc": "JavaScript library for creating interactive concept maps. Written in TypeScript."
     }
   ],
   "skills": {
-    "Sviluppo Web": [
+    "Web Development": [
       "Angular",
       "Typescript",
       "RxJS",
@@ -58,11 +58,11 @@
       "NestJS"
     ],
     "Machine Learning": ["python", "Tensorflow", "pandas", "scikit-learn"],
-    "Altro": ["Docker", "Git", "Linux"]
+    "Other": ["Docker", "Git", "Linux"]
   },
   "languages": {
-    "Italiano": 5,
-    "Inglese": 4
+    "Italian": 5,
+    "English": 4
   },
   "certifications": [
     {
@@ -74,7 +74,7 @@
   ],
   "education": [
     {
-      "title": "Diploma in Informatica",
+      "title": "Diploma in Computer Science",
       "academy": "IIS G.Ferraris - F. Brunelleschi",
       "date": "09/2020"
     }
