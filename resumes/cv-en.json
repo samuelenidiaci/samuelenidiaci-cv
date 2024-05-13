@@ -1,21 +1,19 @@
 {
   "template": "alta-en",
   "general": {
-    "name": "Elia Lotti",
-    "jobtitle": "Frontend - Backend - Machine Learning",
-    "email": "elialotti.dev@gmail.com",
+    "name": "Samuele Nidiaci",
+    "jobtitle": "Cloud System Administrator",
+    "email": "samuele.nidiaci@gmail.com",
     "location": "Certaldo (FI)",
-    "website": "https://elialotti.com",
-    "linkedin": "elia-lotti-dev",
-    "github": "kaosdev"
+    "linkedin": "samuelenidiaci",
   },
   "experience": [
     {
-      "title": "Software Developer",
-      "company": "freelancer",
-      "start": "feb 2022",
-      "end": "ongoing",
-      "location": "",
+      "title": "Cloud System Administrator",
+      "company": "Treedom",
+      "start": "apr 2022",
+      "end": "dec 2023",
+      "location": "Florence, IT",
       "descriptions": [
         "Development of software for an analytical medical device. Used Python, PyQt5 for the UI, and OpenCV for image processing",
         "Development of a web app for remote control of industrial machines. Used Angular, NestJS, and PostgreSQL",
